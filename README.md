@@ -15,7 +15,7 @@ You can use pre build themes by changing the `TEMPLATE_NAME` variable in  `error
 .
         env:
         - name: TEMPLATE_NAME
-          value: "app-down"
+          value: "lost-in-space"
         - name: SHOW_DETAILS
           value: "true"
         ports:
