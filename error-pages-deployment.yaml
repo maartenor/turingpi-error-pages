@@ -5,7 +5,6 @@ metadata:
   name: error-pages
   labels:
     app: error-pages
-    fake: "true"
 spec:
   replicas: 1
   strategy:
