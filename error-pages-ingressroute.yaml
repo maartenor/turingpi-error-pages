@@ -9,9 +9,9 @@ spec:
     - web
     - websecure
   routes:
-    - match: PathPrefix(\`/\`)
+    - match: PathPrefix(`/`)
       kind: Rule
-      priority: 100
+      priority: 121
       services:
         - name: error-pages
           port: 8080
