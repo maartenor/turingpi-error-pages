@@ -16,4 +16,3 @@ spec:
           name: error-pages
           port: 8080
       middlewares:
-        - name: error-pages-middleware
