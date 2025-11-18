@@ -26,7 +26,7 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: TEMPLATE_NAME
-          value: noise # lost-in-space  # connection  # "app-down"
+          value: "app-down" # noise # lost-in-space  # connection 
         - name: SHOW_DETAILS
           value: "true"
         ports:
